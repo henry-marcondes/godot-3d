@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bf1wq34oem85n"]
+
+[ext_resource type="PackedScene" uid="uid://becscoplcnang" path="res://roads/road-bend-sidewalk.glb" id="1_xfdm5"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_6fqjv"]
+points = PackedVector3Array(-0.5, 0, -0.5, -0.5, 0, 0.5, -0.5, 0.02, -0.5, 0.5, 0, -0.5, -0.5, 0.02, 0.5, 0.5, 0, 0.5, 0.5, 0.02, -0.5, 0.5, 0.02, 0.5)
+
+[node name="road-bend-sidewalk2" unique_id=1939530235 instance=ExtResource("1_xfdm5")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=193069112]
+shape = SubResource("ConvexPolygonShape3D_6fqjv")

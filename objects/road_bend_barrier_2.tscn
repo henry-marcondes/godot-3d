@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://degt5quj8f3y8"]
+
+[ext_resource type="PackedScene" uid="uid://chnvy3iwpfii0" path="res://roads/road-bend-barrier.glb" id="1_vdtkb"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_ts7x3"]
+
+[node name="road-bend-barrier2" unique_id=658893698 instance=ExtResource("1_vdtkb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1775629130]
+shape = SubResource("WorldBoundaryShape3D_ts7x3")

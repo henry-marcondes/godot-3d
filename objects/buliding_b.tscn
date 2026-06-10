@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://xtyitoq62c6h"]
+
+[ext_resource type="PackedScene" uid="uid://b83mxf76qcleh" path="res://models/building-b.glb" id="1_kufhe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w8rxc"]
+
+[node name="buliding-b" unique_id=396920177 instance=ExtResource("1_kufhe")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1198534706]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("BoxShape3D_w8rxc")

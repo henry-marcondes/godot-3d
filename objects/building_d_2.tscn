@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bl0p6tun8wcjv"]
+
+[ext_resource type="PackedScene" uid="uid://cr2n3gkyy6iy2" path="res://comercial/building-d.glb" id="1_tmfek"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_espvv"]
+
+[node name="building-d2" unique_id=2079869969 instance=ExtResource("1_tmfek")]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." index="1" unique_id=1123348048]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" index="0" unique_id=1698683773]
+shape = SubResource("BoxShape3D_espvv")

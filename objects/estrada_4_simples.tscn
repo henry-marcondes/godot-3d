@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://drtvss62oenvs"]
+
+[ext_resource type="PackedScene" uid="uid://cq5yqihypf0vi" path="res://objects/road_driveway_single.tscn" id="1_nmcop"]
+
+[node name="estrada-4-simples" type="Node3D" unique_id=1782851319]
+
+[node name="road-driveway-single2" parent="." unique_id=2126932945 instance=ExtResource("1_nmcop")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00036621094, 0, 0.031188965)
+
+[node name="road-driveway-single3" parent="." unique_id=1278878132 instance=ExtResource("1_nmcop")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9980011, 0, 0.034974217)
+
+[node name="road-driveway-single4" parent="." unique_id=1559636060 instance=ExtResource("1_nmcop")]
+transform = Transform3D(-0.99999756, 0, 0.0021990838, 0, 1, 0, -0.0021990838, 0, -0.99999756, -0.9937004, 0, 0.030575426)
+
+[node name="road-driveway-single5" parent="." unique_id=1232649271 instance=ExtResource("1_nmcop")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9924847, 0, 0.03012115)

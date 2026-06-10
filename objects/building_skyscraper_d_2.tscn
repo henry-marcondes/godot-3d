@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://enayfdi42sgl"]
+
+[ext_resource type="PackedScene" uid="uid://c8awb7k181lbf" path="res://comercial/building-skyscraper-d.glb" id="1_50k3n"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vowei"]
+size = Vector3(1.3005371, 5.4367065, 1.3942871)
+
+[node name="building-skyscraper-d2" unique_id=1574426177 instance=ExtResource("1_50k3n")]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." index="1" unique_id=1861879043]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" index="0" unique_id=1881548038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.013355017, 2.7183533, -0.0032958984)
+shape = SubResource("BoxShape3D_vowei")

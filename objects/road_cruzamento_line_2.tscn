@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bj35toaog2p6j"]
+
+[ext_resource type="PackedScene" uid="uid://wun4jybph0gf" path="res://roads/road-crossroad-line.glb" id="1_0y7kl"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_g5lsk"]
+
+[node name="road-cruzamento-line2" unique_id=1491662159 instance=ExtResource("1_0y7kl")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1993899309]
+shape = SubResource("WorldBoundaryShape3D_g5lsk")

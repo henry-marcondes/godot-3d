@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ccw74bh4fu18b"]
+
+[ext_resource type="PackedScene" uid="uid://cccg3l42nx2p7" path="res://roads/road-driveway-double.glb" id="1_lii5c"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_oh3ra"]
+
+[node name="road-driveway-double2" unique_id=960893771 instance=ExtResource("1_lii5c")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=703341952]
+shape = SubResource("WorldBoundaryShape3D_oh3ra")

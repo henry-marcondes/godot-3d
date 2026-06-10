@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://b0m6gb1rtme8y"]
+
+[ext_resource type="PackedScene" uid="uid://c4bb7vjqh07nm" path="res://models/building-j.glb" id="1_vxhqr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hqdbh"]
+size = Vector3(2.0654297, 1.6977539, 1.3487549)
+
+[node name="building-j" unique_id=409515319 instance=ExtResource("1_vxhqr")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1454904230]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.014160156, 0.84887695, 0.0044555664)
+shape = SubResource("BoxShape3D_hqdbh")
